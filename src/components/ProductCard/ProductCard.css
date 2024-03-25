@@ -1,0 +1,27 @@
+.productCard {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 89.1vh;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.productCardBlcok {
+	border-radius: 10px;
+	width: 262px;
+	height: 328px;
+	display: flex;
+	flex-direction: column;
+	background: rgb(35, 69, 69);
+}
+
+.productCardBlcok h3 {
+	color: white;
+	margin: 4px 0;
+}
+
+.pagination {
+	background: #ffffff;
+	border-radius: 30px;
+}

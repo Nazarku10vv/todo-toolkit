@@ -1,0 +1,81 @@
+.admin {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+}
+
+.adminMainBlcok {
+	border-radius: 50px;
+	box-shadow: inset 0px 4px 27px 0px rgba(0, 0, 0, 0.5);
+	background: rgb(12, 120, 120);
+	width: 987px;
+	height: 540px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.adminMainBlcok h2 {
+	color: rgb(255, 255, 255);
+	font-family: Montserrat;
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 55px;
+	letter-spacing: 0%;
+}
+.adminMainBlcok input {
+	border-radius: 20px;
+	margin: 16px 0;
+	box-shadow: inset 2px 5px 4px 0px rgba(0, 0, 0, 0.25);
+	background: rgb(255, 255, 255);
+	width: 839px;
+	height: 69px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	color: rgb(80, 80, 80);
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0%;
+	text-align: left;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.adminMainBlcok button {
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	width: 350px;
+	height: 49px;
+	color: rgb(255, 255, 255);
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0%;
+	text-align: left;
+	background: rgb(22, 75, 75);
+}
+
+.adminMainBlcok input::placeholder {
+	color: rgb(80, 80, 80);
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0%;
+	text-align: left;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 24px;
+}
